@@ -1,0 +1,16 @@
+# Ignore all files and directories in the root
+/*
+
+# Unignore specific files in the root
+!*.pdf
+!.gitignore
+!requirements.txt
+
+# Unignore the src directory
+!src/
+
+# Ignore all files inside src
+src/*
+
+# Unignore .py files inside src
+!src/*.py
